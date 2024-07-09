@@ -1,0 +1,61 @@
+.ads-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    overflow-x: auto;
+    height: fit-content;
+    padding: 10px;
+    scrollbar-width: thin;
+    scrollbar-color: var(--primary-color) var(--background-color);
+}
+
+.ad-card {
+    background: var(--background-color);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px var(--neu-shadow-dark), -10px -10px 30px var(--neu-shadow-light);
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.ad-card:hover {
+    transform: translateY(-5px);
+}
+
+.ad-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.ad-company {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.ad-date {
+    font-size: 0.9em;
+    color: gray;
+}
+
+.ad-content {
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+.ad-link {
+    font-size: 1em;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.ad-link:hover {
+    text-decoration: underline;
+}
+
+.ad-analytics {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+    color: gray;
+}

@@ -1,0 +1,145 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background: var(--body-bg);
+	font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+	transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a {
+	text-decoration: none;
+	color: var(--link-color);
+}
+
+h1,
+h2 {
+	color: var(--heading-color);
+}
+
+section {
+	padding: 60px 0px;
+}
+
+.container {
+	padding: 0px 15px;
+	margin: auto;
+}
+
+.description {
+	color: var(--small-text-color);
+	line-height: 30px;
+	font-size: .9rem;
+}
+
+:root {
+	--bg-light: #ffffff;
+	--bg-dark: #2c2f33;
+	--primary-text-light: #687890;
+	--primary-text-dark: #eeeeee;
+	--primary-color: #61dafb;
+	--heading-color: #fff;
+	--btn-primary-bg: #61dafb;
+	--btn-secondary-bg: #0b0c0e;
+	--team-card-bg: #0b0c0e;
+	--link-color: #fff;
+	--link-active: #61dafb;
+	--card-bg: linear-gradient(45deg,
+			rgba(40, 44, 52, 1) 33%,
+			rgba(40, 44, 52, 1) 52%,
+			rgba(40, 44, 52, 1) 84%);
+	--counter-color: linear-gradient(90deg,
+			#61dafb 30%,
+			rgba(40, 44, 52, 1) 55%,
+			rgba(40, 44, 52, 1) 75%);
+	--body-bg: rgba(40, 44, 52, 1);
+	--newsletter-bg: linear-gradient(90deg,
+			rgba(40, 44, 52, 1) 20%,
+			rgba(40, 44, 52, 1) 38%,
+			rgba(40, 44, 52, 1) 100%);
+
+	--font-name: "Verdana", sans-serif;
+	--small-text-color: rgba(255, 255, 255, 0.774);
+	--icon-bg: #282c34;
+	--bg: "#2C2F33";
+	--button: "#25CEDE";
+	--primaryText: "#EEEEEE";
+	--secondaryText: "#687890";
+	--lightShadow: "rgba(59, 68, 81, 0.8) -5px -5px 15px";
+	--darkShadow: "rgba(0, 0, 0, 0.8) 5px 5px 15px";
+}
+
+
+.dark-theme {
+	--bg-light: #ffffff;
+	--bg-dark: #2c2f33;
+	--primary-text-light: #687890;
+	--primary-text-dark: #eeeeee;
+
+
+	--primary-color: #61dafb;
+	--heading-color: #fff;
+	--btn-primary-bg: #61dafb;
+	--btn-secondary-bg: #0b0c0e;
+	--team-card-bg: #0b0c0e;
+	--link-color: #fff;
+	--link-active: #61dafb;
+	--card-bg: linear-gradient(45deg,
+			rgba(40, 44, 52, 1) 33%,
+			rgba(40, 44, 52, 1) 52%,
+			rgba(40, 44, 52, 1) 84%);
+	--counter-color: linear-gradient(90deg,
+			#61dafb 30%,
+			rgba(40, 44, 52, 1) 55%,
+			rgba(40, 44, 52, 1) 75%);
+	--body-bg: rgba(40, 44, 52, 1);
+	--newsletter-bg: linear-gradient(90deg,
+			rgba(40, 44, 52, 1) 20%,
+			rgba(40, 44, 52, 1) 38%,
+			rgba(40, 44, 52, 1) 100%);
+
+	--font-name: "Roboto", sans-serif;
+	--small-text-color: rgba(255, 255, 255, 0.774);
+	--icon-bg: #282c34;
+	--bg: #2C2F33;
+	--button: #25CEDE;
+	--primary-text: #EEEEEE;
+	--secondary-text: #687890;
+	--lightShadow: rgba(59, 68, 81, 0.8) -5px -5px 15px;
+	--darkShadow: rgba(0, 0, 0, 0.8) 5px 5px 15px;
+}
+
+/* Light mode variables */
+.light-theme {
+	--body-bg: #ffffff;
+	--heading-color: #202226;
+	--btn-secondary-bg: #61dafb;
+	--btn-primary-bg: #101010;
+	--primary-color: #61dafb;
+	--counter-color: #ffffff;
+	--counter-section-bg: #61dafb;
+	--link-color: #282c34;
+	--link-active: #61dafb;
+	--newsletter-bg: linear-gradient(180deg,
+			rgba(97, 218, 251, 1) 29%,
+			rgba(97, 218, 251, 1) 50%,
+			rgba(97, 218, 251, 1) 78%);
+	--small-text-color: #000000;
+	--card-bg: #ffffff;
+	--testimonial-bg: #f7f7f7;
+	--team-card-bg: #ffffff;
+	--bg: #FFFFFF;
+	--button: #EEEEEE;
+	--primaryText: #687890;
+	--secondaryText: #687890;
+	--lightShadow: #FFFFFF -5px -5px 15px;
+	--darkShadow: #88A0B7 5px 5px 15px;
+}

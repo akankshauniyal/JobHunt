@@ -1,0 +1,196 @@
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.posts-container {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 20px;
+    margin: auto;
+    position: absolute;
+    width: calc(100% - 350px);
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-color: var(--secondary-text) var(--secondary-text);
+    scrollbar-width: thin;
+}
+
+.posts-container::-webkit-scrollbar {
+    height: 10px;
+    border-radius: 10px;
+}
+
+.posts-container::-webkit-scrollbar-track {
+    background: var(--button);
+    border-radius: 10px;
+}
+
+.posts-container::-webkit-scrollbar-thumb {
+    background-color: var(--secondary-text);
+    border-radius: 10px;
+}
+
+.post-container {
+    background: var(--bg);
+    width: 500px;
+    height: fit-content;
+    max-height: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.post-container:hover {
+    transform: translateY(-5px);
+}
+
+.posts-container-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.posts-container-main  > .post-container {
+    margin-bottom: 40px;
+}
+
+.posts-container-main  > .job-card {
+    margin-bottom: 40px;
+    width: 700px;
+}
+
+.posts-container-main .date {
+    margin-top: 20px;
+}
+
+.posts-container-main::-webkit-scrollbar {
+    height: 10px;
+    border-radius: 10px;
+}
+
+.posts-container-main::-webkit-scrollbar-thumb {
+    background-color: var(--secondary-text);
+    border-radius: 10px;
+}
+
+.posts-container-main::-webkit-scrollbar-track {
+    background-color: var(--button);
+    border-radius: 10px;
+}
+
+.profile {
+    width: 300px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.pic {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.author {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 50px;
+    color: var(--primary-text);
+}
+
+.name {
+    font-size: 1em;
+    margin: 0;
+    margin-top: 20px;
+    max-height: 2px;
+}
+
+.date {
+    font-size: 0.8em;
+    color: var(--secondary-text);
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+.title {
+    font-size: 1.2em;
+    font-weight: 600;
+    text-align: left;
+    margin: 10px 0;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    color: var(--primary-text);
+}
+
+.link {
+    color: var(--secondary-text);
+    margin-left: 10px;
+    padding: 10px;
+    text-align: left;
+}
+
+.link svg {
+    margin-right: 10px;
+}
+
+.description {
+    text-align: left;
+    margin: 0;
+    padding: 10px 20px;
+    color: var(--secondary-text);
+    margin-bottom: 20px;
+}
+
+.like, .comment {
+    font-size: 0.9em;
+    color: var(--secondary-text);
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.like:hover, .comment:hover {
+    color: var(--primary-text);
+    cursor: pointer;
+}
+
+.dark-theme {
+    --bg: #2C2F33;
+    --button: #25CEDE;
+    --primary-text: #EEEEEE;
+    --secondary-text: #687890;
+    --lightShadow: #3B4451 -5px -5px 15px;
+    --darkShadow: #000000 5px 5px 15px;
+
+    .post-container {
+        box-shadow: 7px 7px 14px #000000, -7px -7px 14px #3B4451;
+    }
+
+    .nav-item.active {
+        box-shadow: inset 3px 3px 6px #000000, inset -3px -3px 6px #3B4451;
+    }
+}
+
+.light-theme {
+    --bg: #FFFFFF;
+    --button: #EEEEEE;
+    --primary-text: #687890;
+    --secondary-text: #687890;
+    --lightShadow: #FFFFFF -5px -5px 15px;
+    --darkShadow: #88A0B7 5px 5px 15px;
+
+    .post-container {
+        box-shadow: 7px 7px 14px #88A0B7, -7px -7px 14px #FFFFFF;
+    }
+    .nav-item.active {
+        box-shadow: inset 3px 3px 6px #88A0B7, inset -3px -3px 6px #FFFFFF;
+    }
+}

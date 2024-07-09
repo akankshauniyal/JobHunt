@@ -1,0 +1,79 @@
+.dark-theme {
+	--bg: #2C2F33;
+	--button: #25CEDE;
+	--primary-text: #EEEEEE;
+	--secondary-text: #687890;
+	--lightShadow: #3B4451 -5px -5px 15px;
+	--darkShadow: #000000 5px 5px 15px;
+	.primary_btn, .secondary_btn {
+		box-shadow: 2px 2px 5px #000000,
+			-5px -5px 10px #3B4451;
+	}
+}
+
+.light-theme {
+	--bg: #FFFFFF;
+	--button: #EEEEEE;
+	--primary-text: #687890;
+	--secondary-text: #687890;
+	--lightShadow: #FFFFFF -5px -5px 15px;
+	--darkShadow: #88A0B7 5px 5px 15px;
+	.primary_btn, .secondary_btn {
+		box-shadow: 2px 2px 5px #88A0B7,
+			-5px -5px 10px #FFFFFF;
+	}
+}
+
+.hero_section {
+	margin: 20px 0px;
+}
+
+.hero_wrapper {
+	padding: 5rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.hero_content {
+	width: 45%;
+}
+
+.highlight {
+	color: var(--primary-text);
+	font-size: 24px;
+	padding: 30px;
+	text-align: left;
+	letter-spacing: 0.8px;
+}
+
+.description {
+	color: var(--secondary-text);
+	font-size: 20px;
+	padding: 30px;
+	padding-right: 60px;
+	text-align: left;
+}
+
+.hero_btns {
+	padding: 30px;
+	padding-right: 80px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	gap: 4rem;
+}
+
+.primary_btn, .secondary_btn {
+	height: 4rem;
+	color: var(--primary-text);
+    font-size: 18px;
+    font-weight: 600;
+    background: var(--bg);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px #000000,
+        -5px -5px 10px #3B4451;
+}

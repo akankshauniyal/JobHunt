@@ -1,0 +1,99 @@
+.dark-theme {
+	--bg: #2C2F33;
+	--button: #25CEDE;
+	--primary-text: #EEEEEE;
+	--secondary-text: #687890;
+	--lightShadow: #3B4451 -5px -5px 15px;
+	--darkShadow: #000000 5px 5px 15px;
+}
+
+.light-theme {
+	--bg: #FFFFFF;
+	--button: #EEEEEE;
+	--primary-text: #687890;
+	--secondary-text: #687890;
+	--lightShadow: #FFFFFF -5px -5px 15px;
+	--darkShadow: #88A0B7 5px 5px 15px;
+}
+
+.headerMain {
+    width: 100%;
+    background: var(--bg);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.nav_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header__logo {
+    color: var(--primary-text);
+    display: flex;
+    flex-direction: row;
+}
+
+.header__logo img {
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+}
+
+.header__logo h1 {
+    margin: auto;
+    padding-left: 60px;
+}
+
+.header__menu {
+    margin: auto;
+}
+
+.header__menu ul {
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    gap: 6rem;
+}
+
+.header__menu a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    color: var(--primary-text);
+}
+
+button:hover {
+    transform: scale(1.05);
+    opacity: 80%;
+}
+
+.header__menu li:hover {
+    transform: scale(1.1);
+    opacity: 80%;
+}
+
+.switch {
+    position: absolute;
+    height: 2.4rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    background: var(--button);
+    box-shadow: var(--darkShadow)
+  }
+
+  .sun path {
+    fill: var(--primary-text);
+  }
+
+  .moon path {
+    fill: var(--primary-text);
+  }

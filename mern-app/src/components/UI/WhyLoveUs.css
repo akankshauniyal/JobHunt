@@ -1,0 +1,97 @@
+.dark-theme {
+	--bg: #2C2F33;
+	--button: #25CEDE;
+	--primary-text: #EEEEEE;
+	--secondary-text: #687890;
+	--lightShadow: #3B4451 -5px -5px 15px;
+	--darkShadow: #000000 5px 5px 15px;
+	.btn, .secondary_btn {
+		box-shadow: 2px 2px 5px #000000,
+			-5px -5px 10px #3B4451;
+	}
+}
+
+.light-theme {
+	--bg: #FFFFFF;
+	--button: #EEEEEE;
+	--primary-text: #687890;
+	--secondary-text: #6878909f;
+	--lightShadow: #FFFFFF -5px -5px 15px;
+	--darkShadow: #88A0B7 5px 5px 15px;
+	.primary_btn, .secondary_btn {
+		box-shadow: 2px 2px 5px #88A0B7,
+			-5px -5px 10px #FFFFFF;
+	}
+}
+
+.why-love-us {
+	padding: 40px 0;
+	background: var(--bg);
+	color: var(--heading-color);
+	font-family: var(--font-name);
+}
+
+.cont {
+	display: flex;
+	justify-content: space-around;
+	gap: 4rem;
+	padding: 0 5rem;
+	padding-bottom: 40px;
+}
+
+.column {
+	flex: 1;
+	padding: 20px;
+}
+
+.column h1 {
+	color: var(--primary-text);
+	font-size: 2.0rem;
+	margin-bottom: 40px;
+	line-height: 1.5;
+	font-weight: 600;
+}
+
+.column h2 {
+	color: var(--primary-text);
+	font-size: 1.7rem;
+	margin-bottom: 10px;
+	line-height: 1.5;
+	font-weight: 600;
+}
+
+.benefits {
+	list-style: none;
+	padding: 0 20px;
+	margin: 0 0 20px 0;
+	align-items: center;
+}
+
+.benefits li {
+	display: flex;
+	text-align: center;
+	margin-bottom: 30px;
+	color: var(--secondary-text);
+	font-size: 1.2rem;
+	line-height: 1.5;
+	font-weight: 400;
+}
+
+.benefits h3 {
+	text-align: center;
+	color: var(--secondary-text);
+	font-weight: 400;
+}
+
+.actions {
+	display: flex;
+	justify-content: space-around;
+	gap: 20px;
+}
+
+.btn {
+	width: 250px;
+	height: 4rem;
+	background-color: var(--bg);
+	color: var(--primary-text);
+}

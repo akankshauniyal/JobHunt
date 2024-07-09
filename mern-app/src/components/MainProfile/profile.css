@@ -1,0 +1,149 @@
+.profile-page {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.profile-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 20px;
+}
+
+.detail-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    min-height: 150px;
+    min-width: 250px;
+    max-width: 400px;
+    gap: 10px;
+    background: var(--bg);
+    color: var(--primary-text);
+    font-weight: 600;
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1 1 calc(50% - 40px);
+}
+
+.detail-item:hover {
+    opacity: 80%;
+}
+
+.detail-item div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-span {
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.second-span {
+    letter-spacing: 0.8px;
+}
+
+.about-field {
+    max-width: 100%;
+}
+
+.profile-sections {
+    margin-top: 50px;
+}
+
+.profile-section {
+    background: var(--bg);
+    color: var(--primary-text);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.profile-section h2 {
+    margin-bottom: 20px;
+}
+
+.add-post {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 12px;
+    background: var(--bg);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: var(--secondary-text);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.add-post:hover {
+    opacity: 80%;
+}
+
+.add-post span {
+    margin-left: 15px;
+}
+
+.top-title {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.top-title h2 {
+    padding-top: 20px;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.analytics-container {
+    background: var(--bg);
+    color: var(--primary-text);
+    margin: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.analytics-container:hover {
+    transform: translateY(-5px);
+}
+
+.analytics-container h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.dark-theme {
+    --bg: #2C2F33;
+    --button: #25CEDE;
+    --primary-text: #EEEEEE;
+    --secondary-text: #687890;
+    --lightShadow: #3B4451 -5px -5px 15px;
+    --darkShadow: #000000 5px 5px 15px;
+
+    .sidebar, .detail-item, .analytics-container, .add-post {
+        box-shadow: 7px 7px 14px #000000, -7px -7px 14px #3B4451;
+    }
+}
+
+.light-theme {
+    --bg: #FFFFFF;
+    --button: #EEEEEE;
+    --primary-text: #687890;
+    --secondary-text: #687890;
+    --lightShadow: #FFFFFF -5px -5px 15px;
+    --darkShadow: #88A0B7 5px 5px 15px;
+
+    .sidebar, .detail-item, .analytics-container, .add-post {
+        box-shadow: 7px 7px 14px #88A0B7, -7px -7px 14px #FFFFFF;
+    }
+}
