@@ -1,47 +1,51 @@
-# JobHunt
+# JobHunt – Job Search & Professional Networking Platform
 
-JobHunt is a job search and social networking platform designed to connect job seekers, recruiters, and companies seamlessly. It provides a modern, user-friendly interface and a range of features to enhance the job search experience.
+JobHunt is a full-stack web application designed to connect job seekers, recruiters, and companies through a unified platform. It provides job discovery, professional networking, profile management, and recruitment-related features.
 
-Live Project Link : https://job-hunt-zeta-gold.vercel.app/
+**Live Demo:** https://job-hunt-zeta-gold.vercel.app/
+
+## Application Preview
+
+### Homepage
+![JobHunt Homepage](screenshots/jobhunt-homepage.png)
+
+### Role Selection
+![JobHunt Role Selection](screenshots/jobhunt-roles.png)
 
 ## Key Features
 
-- **Three Types of Profiles:**
-  - **Job Seekers:** Create detailed profiles showcasing skills, education, experience, and projects.
-  - **Recruiters:** Manage job postings, view applicants, and track post analytics.
-  - **Companies:** Post job ads, manage company profiles, and track engagement.
+- **Three User Roles:** Dedicated experiences for Job Seekers, Recruiters, and Companies.
+- **Profile Management:** Create and manage professional profiles with skills, education, experience, and social links.
+- **Job Search:** Explore job opportunities with filtering functionality.
+- **Job Management:** Create and manage job postings.
+- **Professional Networking:** Follow users and share professional updates through posts.
+- **Post Analytics:** View graphical analytics of post engagement.
+- **Theme Customization:** Dark and light modes with saved preferences.
+- **Account Settings:** Manage account preferences, logout, and profile deletion.
 
-- **Profile Pages:**
-  - Basic Details: Followers, following, and social links.
-  - Posts Section: Share updates and achievements.
-  - Jobs Section: Post job vacancies with detailed descriptions.
-  - Analytics: View graphical analytics of post views.
+## Technology Stack
 
-- **Job Search Page:**
-  - Modern design for a seamless job searching experience.
-  - Filters for easy navigation and job discovery.
+| Component | Technologies |
+|---|---|
+| Frontend | React.js, JavaScript, HTML5, CSS3 |
+| Backend | Node.js, Express.js |
+| Database | MongoDB |
+| Authentication | Firebase Authentication |
+| Deployment | Vercel |
+| Libraries & Tools | Axios, FontAwesome, Recharts |
 
-- **Dark Mode & Light Mode:** 
-  - Retain the selected theme across sessions.
+## Key Highlights
 
-- **Settings Page:**
-  - Options to log out, delete profile with confirmation, set theme mode, and view profile creation date.
+- Developed a full-stack web application with frontend and backend integration.
+- Implemented user authentication and role-based functionality.
+- Integrated REST APIs for application functionality.
+- Built interactive interfaces and data visualisations.
+- Implemented profile management and persistent theme preferences.
 
-- **Posts Management:**
-  - Add, view, and delete posts with ease.
+## Key Learnings
 
-## Tech Stack
+Gained practical experience in full-stack web development, API integration, database management, authentication, and building interactive web applications.
 
-- **Frontend:** React, HTML, CSS, JavaScript
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB
-- **Authentication:** Firebase Authentication
-- **Deployment:** Vercel
-- **Libraries & Tools:** Axios, FontAwesome, Recharts
+---
 
-## Project Highlights
-
-- **Seamless User Experience:** Modern UI/UX design principles for a smooth user experience.
-- **Real-time Updates:** Efficient data management and real-time updates.
-
-Working on JobHunt has been an enriching experience, allowing me to apply and expand my skills in web development, database management, and user interface design. I'm excited to see how JobHunt can help connect job seekers with their dream opportunities and aid companies in finding the perfect candidates.
+**Developed by Akanksha Uniyal**
