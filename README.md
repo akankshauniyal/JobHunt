@@ -7,10 +7,10 @@ JobHunt is a full-stack web application designed to connect job seekers, recruit
 ## Application Preview
 
 ### Homepage
-![JobHunt Homepage](./JobHunt%20Homepage.png)
+![JobHunt Homepage](mern-app/JobHunt%20Homepage.png)
 
 ### Role Selection & User Profiles
-![JobHunt Profiles](./Profiles.png)
+![JobHunt Profiles](mern-app/Profiles.png)
 
 ## Key Features
 
